@@ -8,7 +8,7 @@ Needs `node.js` to work.
 
 - `src` - Actual game source in `ES6`
 - `assets` - Game assets and CSS
-- `lib` - Main library files copied from `bower_components`, like `phaser.js`
+- `lib` - Main library files, like `phaser.js`
 - `js` - Compiled JavaScript in `ES5`
 - `dist` - Full game ready to be distributed
 - `index.html` - Game page
@@ -21,8 +21,8 @@ Needs `node.js` to work.
 3. Set `origin` url to your repository by running `git remote set-url origin <your-repo-clone-url>`
 1. Install dependencies by running `npm install`
 2. Install `gulp` globally by running `npm install -g gulp`, this needs to be run with `sudo` on Linux, like `sudo npm install -g gulp`
-3. Run `gulp watch server` to continuously monitor sources and rebuild as needed. This also starts HTTP server at http://localhost:8000`
-4. Run `gulp deploy` to push to GitHub Pages
+3. Run `gulp watch server` to continuously monitor sources and rebuild as needed. This also starts HTTP server at http://localhost:8000
+4. Run `gulp deploy` to push to GitHub Pages, this will make your game available at `http://<your-username>.github.io/<repo-name>`, like http://shvelo.github.io/phaser-es6-template
 
 ## Gulp tasks
 
