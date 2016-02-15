@@ -21,7 +21,6 @@
     "dist.zip"
   ],
   "dependencies": {
-    "phaser": "~2.4.4",
-    "lodash": "~4.3.0"
+    "phaser": "~2.4.4"
   }
 }
