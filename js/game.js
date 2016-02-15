@@ -71,7 +71,7 @@
 	    _get(Object.getPrototypeOf(Game.prototype), 'constructor', this).call(this, 480, 320, Phaser.AUTO, 'game');
 	    window.game = this;
 
-	    this.state.add('menu', MenuState);
+	    this.state.add('boot', _statesBootJsx2['default']);
 	    this.state.add('play', _statesPlayJsx2['default']);
 
 	    this.state.start('boot');
