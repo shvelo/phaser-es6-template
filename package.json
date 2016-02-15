@@ -1,0 +1,34 @@
+{
+  "name": "phaser-es6-template",
+  "description": "Phaser game template in ES6",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Shvelidze <captain@pirrate.me>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shvelo/phaser-es6-template.git"
+  },
+  "homepage": "https://github.com/shvelo/phaser-es6-template",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "*",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-webserver": "^0.9.1",
+    "gulp-zip": "^3.0.2",
+    "webpack-stream": "^3.1.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
